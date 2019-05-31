@@ -17,7 +17,7 @@ div.box{
   border: 2px solid black;
 }
 
-li.navbar{
+.navbar > li {
     display: inline;
     float: left;
     margin: 0.2em;
@@ -59,7 +59,7 @@ li.navbar{
 
   p{
     font-family: Georgia;
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin: 1.5em 4em 2em 4em;
     text-align: justify;
   }
@@ -72,3 +72,48 @@ li.navbar{
     font-size: 1.3em; 
     padding: 0.6em;
   }
+
+  #footer{
+    font-size: 0.8em;
+    margin-left: 0.5em;
+  }
+
+  .row{
+    display: flex;
+    justify-content: center; /*horizontal alignment*/
+    align-items: flex-start; /*vertical alignment*/
+    flex-wrap: wrap;
+    background-color: white;
+
+  }
+  #flexheading{
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  #flextext{
+    font-size: 0.8em;
+    margin: 0.8em 1em 0 1em;
+  }
+
+  .row > div{
+    text-align: center;
+    margin: 2px;
+    font-size: 1.5em;
+    font-style: bold;
+    flex-basis: 33%;
+  }
+
+  div > img {
+    width: 100%;
+    min-width: 15em;
+  }
+  
+
+  iframe{
+    border: 1px solid black;
+  }
+
+  
