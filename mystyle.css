@@ -64,13 +64,17 @@ div.box{
     text-align: justify;
   }
 
-  #tables {
+  .tables {
     width:50%; 
     border:0.15em solid black; 
     text-align: left; 
-    padding-left: 0.4em; 
+    padding-left: 0.6em; 
     font-size: 1.3em; 
-    padding: 0.6em;
+    padding: 0.8em;
+  }
+
+  td{
+    padding-left: 1em; 
   }
 
   #footer{
