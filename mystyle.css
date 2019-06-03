@@ -2,48 +2,52 @@ body{
     font-family: Georgia, serif;
     background-color:white;
 }
-h1.header{
+.header{
     color:black;
     font-style: bold;
     text-align: center;
-    font-size: 300%;
+    font-size: 200%;
     margin-bottom: 0.7em;
     font-family: Verdana, sans-serif;
-    padding: 0.6em;
+    padding: 0.2em;
 }
 
-div.box{
-  width: 30%;
-  border: 2px solid black;
-}
-
-.navbar > li {
-    display: inline;
-    float: left;
-    margin: 0.2em;
+.footer{
+  font-size: 0.8em;
+  margin-top: 1em;
 }
 
 .navbar {
-    position: sticky;
+
     font-family: calibri;
     font-weight: bold;
+    font-size: 1em;
     text-transform: uppercase;
     display: flex;
     margin: 0;
-    padding: 0;
+    margin-top: -0.25em;
     background-color: #2E2E2E;
+    position: sticky;
+    top: 0;
   }
   
 .navbar a {
-    display: block;
     color: white;
-    text-align: center;
-    padding: 0.7em 1em;
+    padding: 1em 1.2em 1em 1.2em;
     text-decoration: none;
+    text-align: center;
+} 
+
+.navbar a.active {
+  background-color: grey;
+  color: black;
+}
+
+.navbar a:hover {
+    background-color:lightgrey;
+    color: #111;
   }
-  .navbar a:hover {
-    background-color:lightblue;
-  }
+
 
 #headlines {
     font-size: 1.4em;
@@ -73,13 +77,13 @@ div.box{
     padding: 0.8em;
   }
 
-  td{
-    padding-left: 1em; 
+  th{
+    padding-right: 2em;
+    border-bottom: 1px solid black;
   }
-
-  #footer{
-    font-size: 0.8em;
-    margin-left: 0.5em;
+  td{
+    padding: 0.5px;
+    border-bottom: 1px solid black;
   }
 
   .row{
@@ -104,17 +108,16 @@ div.box{
 
   .row > div{
     text-align: center;
-    margin: 2px;
+    margin: 1em;
     font-size: 1.5em;
     font-style: bold;
-    flex-basis: 33%;
+    flex-basis: 45%;
   }
 
   div > img {
     width: 100%;
     min-width: 15em;
   }
-  
 
   iframe{
     border: 1px solid black;
